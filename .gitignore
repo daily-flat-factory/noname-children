@@ -1,0 +1,22 @@
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# 비공개 원고 (GitHub에 올라가면 안 됨)
+content/private/
+content/full/
+content/drafts/
+
+# 에디터
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS
+.DS_Store
+Thumbs.db

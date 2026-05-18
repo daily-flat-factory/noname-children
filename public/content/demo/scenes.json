@@ -1,0 +1,114 @@
+{
+  "initialSceneId": "demo_001",
+  "scenes": [
+    {
+      "id": "demo_001",
+      "chapter": "프롤로그",
+      "narrative": [
+        "어딘가에서 깨어났다.",
+        "손바닥 위로 작은 먼지가 내려앉았다. 바람이 멈추었는지, 아니면 처음부터 없었는지 알 수 없었다.",
+        "눈앞에는 세 갈래 길이 있었다."
+      ],
+      "choices": [
+        {
+          "id": "demo_001_c1",
+          "text": "조용히 귀를 기울인다",
+          "isCorrect": true,
+          "nextSceneId": "demo_002",
+          "wrongResponses": null
+        },
+        {
+          "id": "demo_001_c2",
+          "text": "크게 소리를 질러본다",
+          "isCorrect": false,
+          "wrongResponses": [
+            "소리는 공기 속으로 흩어졌다. 아무것도 돌아오지 않았다.",
+            "다시 한 번 외쳐보았지만, 메아리조차 없었다. 이곳은 그런 곳이 아닌 것 같았다."
+          ]
+        },
+        {
+          "id": "demo_001_c3",
+          "text": "그 자리에 주저앉는다",
+          "isCorrect": false,
+          "wrongResponses": [
+            "바닥은 차가웠다. 그러나 아무것도 달라지지 않았다.",
+            "얼마나 앉아 있었는지 알 수 없었다. 길은 여전히 거기 있었다."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "demo_002",
+      "chapter": "1장 — 소리",
+      "narrative": [
+        "멀리서 덜컹거리는 소리가 들렸다.",
+        "무거운 것들이 서로 부딪히는 소리였다. 규칙적이지는 않았지만, 어딘가를 향해 나아가고 있는 것만은 분명했다.",
+        "소리는 점점 가까워지고 있었다."
+      ],
+      "choices": [
+        {
+          "id": "demo_002_c1",
+          "text": "소리가 나는 쪽으로 걸어간다",
+          "isCorrect": true,
+          "nextSceneId": "demo_003",
+          "wrongResponses": null
+        },
+        {
+          "id": "demo_002_c2",
+          "text": "소리가 멈출 때까지 기다린다",
+          "isCorrect": false,
+          "wrongResponses": [
+            "소리는 멈추지 않았다. 오히려 조금 더 가까워진 것 같았다.",
+            "기다림은 아무것도 해결하지 못했다. 소리는 여전히 거기 있었다."
+          ]
+        },
+        {
+          "id": "demo_002_c3",
+          "text": "반대 방향으로 달아난다",
+          "isCorrect": false,
+          "wrongResponses": [
+            "몇 걸음 옮기다 멈췄다. 뭔가 잘못된 것 같은 느낌이 들었다.",
+            "발이 움직이지 않았다. 도망쳐야 할 이유를 찾지 못했다."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "demo_003",
+      "chapter": "1장 — 만남",
+      "narrative": [
+        "낡은 수레가 보였다.",
+        "수레를 끄는 아이는 자신보다 조금 큰 것 같았다. 큰 옷 속에 또 다른 작은 아이가 숨어 있었다.",
+        "큰 아이가 고개를 돌렸다.",
+        "\"너… 누구야?\""
+      ],
+      "choices": [
+        {
+          "id": "demo_003_c1",
+          "text": "주머니 속 인형을 꽉 쥔다",
+          "isCorrect": true,
+          "nextSceneId": null,
+          "wrongResponses": null
+        },
+        {
+          "id": "demo_003_c2",
+          "text": "이름을 말하려 한다",
+          "isCorrect": false,
+          "wrongResponses": [
+            "입이 열렸지만 소리가 나오지 않았다. 말할 이름이 없었다.",
+            "목구멍이 막힌 것 같았다. 이름이 없다는 사실을 그제야 알았다."
+          ]
+        },
+        {
+          "id": "demo_003_c3",
+          "text": "아이에게서 멀어진다",
+          "isCorrect": false,
+          "wrongResponses": [
+            "발이 굳어버린 것 같았다. 더 이상 움직여지지 않았다.",
+            "여기서 돌아가면 어디로 가야 하는지 알 수 없었다."
+          ]
+        }
+      ]
+    }
+  ]
+}
